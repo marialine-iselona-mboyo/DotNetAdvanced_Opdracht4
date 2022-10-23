@@ -24,19 +24,30 @@ namespace Oefening1
             }
         }
 
+        private void timeCB_Checked(object sender, EventArgs e)
+        {
+            if(timeCB.Checked == true)
+            {
+                dateTimePicker.Visible = true;
+            } else
+            {
+                dateTimePicker.Visible = false;
+            }
+        }
+
         private void nextTaskBtn_Click(object sender, EventArgs e)
         {
-
+            row.Next();
         }
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-
+            row.ZetAchteraan();
         }
 
         private void afgewerktBtn_Click(object sender, EventArgs e)
         {
-
+            row.Delete();
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -67,7 +78,22 @@ namespace Oefening1
 
     internal class Rij<T>
     {
+        internal void Delete()
+        {
+            throw new NotImplementedException();
+        }
+
         internal void inDeRij(TeDoen teDoen)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Next()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void ZetAchteraan()
         {
             throw new NotImplementedException();
         }
