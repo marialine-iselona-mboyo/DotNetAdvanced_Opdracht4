@@ -15,13 +15,7 @@ namespace Oefening1
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            if (timeCB.Checked == true)
-            {
 
-            } else
-            {
-                
-            }
         }
 
         private void timeCB_Checked(object sender, EventArgs e)
