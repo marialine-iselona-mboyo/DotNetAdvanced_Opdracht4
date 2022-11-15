@@ -49,7 +49,7 @@
             this.inputTitle.AutoSize = true;
             this.inputTitle.Location = new System.Drawing.Point(93, 81);
             this.inputTitle.Name = "inputTitle";
-            this.inputTitle.Size = new System.Drawing.Size(74, 25);
+            this.inputTitle.Size = new System.Drawing.Size(86, 30);
             this.inputTitle.TabIndex = 0;
             this.inputTitle.Text = "Te doen";
             // 
@@ -58,7 +58,7 @@
             this.informationInput.AutoSize = true;
             this.informationInput.Location = new System.Drawing.Point(498, 81);
             this.informationInput.Name = "informationInput";
-            this.informationInput.Size = new System.Drawing.Size(125, 25);
+            this.informationInput.Size = new System.Drawing.Size(146, 30);
             this.informationInput.TabIndex = 1;
             this.informationInput.Text = "Mededelingen";
             // 
@@ -67,7 +67,7 @@
             this.msgBox.AutoSize = true;
             this.msgBox.Location = new System.Drawing.Point(93, 426);
             this.msgBox.Name = "msgBox";
-            this.msgBox.Size = new System.Drawing.Size(125, 25);
+            this.msgBox.Size = new System.Drawing.Size(146, 30);
             this.msgBox.TabIndex = 2;
             this.msgBox.Text = "Message Box: ";
             // 
@@ -76,7 +76,7 @@
             this.infoLabel.AutoSize = true;
             this.infoLabel.Location = new System.Drawing.Point(498, 426);
             this.infoLabel.Name = "infoLabel";
-            this.infoLabel.Size = new System.Drawing.Size(115, 25);
+            this.infoLabel.Size = new System.Drawing.Size(133, 30);
             this.infoLabel.TabIndex = 3;
             this.infoLabel.Text = "Information: ";
             // 
@@ -100,7 +100,7 @@
             // 
             this.dateTimePicker.Location = new System.Drawing.Point(93, 315);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(300, 31);
+            this.dateTimePicker.Size = new System.Drawing.Size(300, 35);
             this.dateTimePicker.TabIndex = 6;
             // 
             // timeCB
@@ -108,7 +108,7 @@
             this.timeCB.AutoSize = true;
             this.timeCB.Location = new System.Drawing.Point(399, 315);
             this.timeCB.Name = "timeCB";
-            this.timeCB.Size = new System.Drawing.Size(76, 29);
+            this.timeCB.Size = new System.Drawing.Size(84, 34);
             this.timeCB.TabIndex = 7;
             this.timeCB.Text = "Time";
             this.timeCB.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             // 
             this.SaveBtn.Location = new System.Drawing.Point(93, 370);
             this.SaveBtn.Name = "SaveBtn";
-            this.SaveBtn.Size = new System.Drawing.Size(112, 34);
+            this.SaveBtn.Size = new System.Drawing.Size(112, 42);
             this.SaveBtn.TabIndex = 8;
             this.SaveBtn.Text = "Save";
             this.SaveBtn.UseVisualStyleBackColor = true;
@@ -126,7 +126,7 @@
             // 
             this.nextTaskBtn.Location = new System.Drawing.Point(313, 370);
             this.nextTaskBtn.Name = "nextTaskBtn";
-            this.nextTaskBtn.Size = new System.Drawing.Size(112, 34);
+            this.nextTaskBtn.Size = new System.Drawing.Size(112, 42);
             this.nextTaskBtn.TabIndex = 9;
             this.nextTaskBtn.Text = "Next";
             this.nextTaskBtn.UseVisualStyleBackColor = true;
@@ -135,7 +135,7 @@
             // 
             this.afgewerktBtn.Location = new System.Drawing.Point(532, 370);
             this.afgewerktBtn.Name = "afgewerktBtn";
-            this.afgewerktBtn.Size = new System.Drawing.Size(112, 34);
+            this.afgewerktBtn.Size = new System.Drawing.Size(112, 42);
             this.afgewerktBtn.TabIndex = 10;
             this.afgewerktBtn.Text = "Afgewerkt";
             this.afgewerktBtn.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@
             // 
             this.addBtn.Location = new System.Drawing.Point(708, 370);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(112, 34);
+            this.addBtn.Size = new System.Drawing.Size(112, 42);
             this.addBtn.TabIndex = 11;
             this.addBtn.Text = "Add";
             this.addBtn.UseVisualStyleBackColor = true;
@@ -153,7 +153,7 @@
             // 
             this.btn1.Location = new System.Drawing.Point(239, 421);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(112, 34);
+            this.btn1.Size = new System.Drawing.Size(112, 35);
             this.btn1.TabIndex = 12;
             this.btn1.Text = "Off";
             this.btn1.UseVisualStyleBackColor = true;
@@ -162,14 +162,14 @@
             // 
             this.btn2.Location = new System.Drawing.Point(657, 417);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(112, 34);
+            this.btn2.Size = new System.Drawing.Size(112, 39);
             this.btn2.TabIndex = 13;
             this.btn2.Text = "Off";
             this.btn2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(832, 515);
+            this.ClientSize = new System.Drawing.Size(968, 515);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.addBtn);

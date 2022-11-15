@@ -26,9 +26,9 @@ namespace Oefening1
         public T Delete()
         {
             row.Remove(Value);
-            if(row.Count > 0)
+            if(row.Count != 0)
             {
-                Value = row[0];
+                Value = row.First();
             }
             return Value;
         }
@@ -43,7 +43,7 @@ namespace Oefening1
                     return row[0];
                 } else
                 {
-                    return row[rowNumber + 1];
+                    Value = row[rowNumber + 1];
                 }
             } return Value;
         }
@@ -67,7 +67,7 @@ namespace Oefening1
 
         public T ZetAchteraan()
         {
-            if(row.Count <= 0)
+            if(row.Count > 0)
             {
                 row.Remove(Value);
                 row.Add(Value);
